@@ -1,0 +1,28 @@
+{
+  "name": "doc-link-checker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "fileNameReader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakaruna-MSFT/doc-link-checker.git"
+  },
+  "keywords": [
+    "link",
+    "checker",
+    "document"
+  ],
+  "author": "jakaruna-MSFT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakaruna-MSFT/doc-link-checker/issues"
+  },
+  "homepage": "https://github.com/jakaruna-MSFT/doc-link-checker#readme",
+  "dependencies": {
+    "marked": "^0.5.1",
+    "readdirp": "^2.2.1"
+  }
+}
