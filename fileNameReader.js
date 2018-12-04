@@ -3,6 +3,8 @@
 var readdirp = require('readdirp');
 var findLink = require('./findLink');
 
+//globals here
+
 var settings = {
     root: './azure-docs',
     fileFilter: ['*.md'],
@@ -24,7 +26,7 @@ readdirp(settings)
         allFilePaths.push(
             entry.fullPath
         );
-        console.log('got a file ' + entry.fullPath)
+        //console.log('got a file ' + entry.fullPath)
 		findLink.emit('findLink', entry.fullPath)
     })
     .on('warn', function (warn) {
